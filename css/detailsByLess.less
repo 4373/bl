@@ -1,0 +1,406 @@
+#main {
+    background: white;
+    padding-top: 20px;
+
+}
+.details_top {
+    height: 600px;
+    position: relative;
+    margin-bottom: 10px;
+    .detail_fangdajing {
+        float: left;
+        width: 362px;
+        margin-right: 10px;
+        height: 600px;
+        padding-top:10px;
+        .pic_box {
+            height: 360px;
+            width: 360px;
+            position: relative;
+            border: 1px #ddd solid;
+            #cube {
+                width: 160px;
+                height: 160px;
+                background: gray;
+                position: absolute;
+                opacity: 0.5;
+                display: none;
+            }
+        }
+        .pic_list {
+            height: 62px;
+            width: 362px;
+            padding: 10px 5px;
+            li {
+                float: left;
+                height: 60px;
+                width: 60px;
+                margin-left: 6px;
+                border: 1px solid #ddd;
+            }
+            li:hover {
+                border: 1px solid #aaa;
+            }
+        }
+        .big_pic {
+            width: 360px;
+            height: 360px;
+            border: 1px solid #ddd;
+            overflow: hidden;
+            display: none;
+            position: absolute;
+            top: 10px;
+            left: 370px;
+            img {
+                position: absolute;
+            }
+        }
+    }
+    .detail_price {
+        width: 600px;
+        height: 600px;
+        float: left;
+        margin-right: 10px;
+        h2 {
+            padding-top: 10px;
+            font-size: 20px;
+            height: 30px;
+        }
+        .timer {
+            height: 40px;
+            padding-left: 30px;
+            font-size: 16px;
+            line-height: 40px;
+            background: url("../img/details/flash_back_long.jpg") 0 0 no-repeat;
+            span {
+                font-size: 16px;
+            }
+        }
+        .tobuy {
+            .thingscount {
+                height: 42px;
+                line-height: 42px;
+                margin: 10px 0;
+                padding-left: 20px;
+                .btnbox {
+                    height: 40px;
+                    width: 60px;
+                    border: 1px solid #ddd;
+                    box-shadow: -1px -1px 2px 1px #ddd;
+                    line-height: 40px;
+                    display: inline-block;
+                    margin-left: 28px;
+                    position: relative;
+                    padding-left:20px;
+                    color:black;
+                    button {
+                        border: 0;
+                        width: 18px;
+                        height: 20px;
+                        background: white;
+                        border-left:1px solid #ddd;
+                        position: absolute;
+                        outline: 0;
+                        i {
+                            color: #aaa;
+                            font-size: 8px;                           
+                        }
+                    }
+                    button:hover i{
+                        
+                        color:black;
+                    }
+                    input{
+                        border:0;
+                        width:30px;
+                        outline: 0;
+                    }
+                    #add {
+                        
+                        right: 0;
+                        top: 0;
+                    }
+                    #remove {
+                        height:19px;
+                        border-top:1px solid #ddd;
+                        right: 0;
+                        bottom: 0;
+                    }
+                }
+            }
+            .buybox{
+                height:42px;
+                margin:10px 0;
+
+                div{
+                    height:40px;
+                    width:166px;
+                    border:1px solid #E6133C;
+                    border-radius:2px;
+                    line-height:40px;
+                    float:left;
+                    text-align: center;
+                    font-size:16px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                .buynow{
+                    color:#E6133C;
+                    background:#FFEDED;
+                    margin: 0 5px 0 100px;
+                }
+                .buynow:hover{
+                    background: white;
+                }
+                .addcar{
+                    background:#E6133C;
+                     color:white;
+                    i{
+                        font-size: 20px;
+                        margin-right: 5px;;
+                        color:white;
+                    }
+                }
+                .addcar:hover{
+                    background: red;
+                }
+            }
+        }
+    }
+    .detail_other{
+        padding-top:10px;
+    }
+}
+.details_bottom{
+    padding:0 0 20px 0;
+    width:100%;
+
+    position: relative;
+    .d_b_left{
+        margin-right:20px;
+        display:inline-block;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    .d_b_right{
+        float:right;
+        min-height: 3350px;
+        .thingsinfo{
+            height:40px;
+            width:940px;
+            border:1px #ddd solid;
+            margin-bottom: 20px;;
+            li{
+                float:left;
+                cursor: pointer;
+                line-height: 40px;
+                width:180px;
+                text-align: center;
+                border-left:1px solid #ddd;
+                position: relative;
+
+            }
+            li.active span{
+                    position: absolute;
+                    width:182px;
+                    height:3px;
+                    background:red;
+                    left:-1px;
+                    top:-3px;
+            }
+            li:first-child{
+                border:none;
+            }
+            li:hover{
+                color:#E6133C;               
+            }
+        }
+        .infodetails{
+            width:942px;
+            li{
+                display: none;
+                .shouhou{
+                    height:200px;
+                    border:1px solid #ddd;
+                    .shtitle{
+                        font-size:14px;
+                        font-weight: bold;
+                        color:#000000;
+                        padding-left:20px;
+                        height:36px;
+                        border-bottom: 1px solid #ddd;
+                        background: #f5f5f5;
+                        line-height: 36px;
+                    }
+                    .shcontent{
+                        padding:30px 25px 5px 25px; 
+                        background:white;
+                        color:#444;
+                        line-height:20px; 
+                    }
+                }
+                .sppl{
+
+                    .plkind{
+                        height:34px;
+                        width:940px;
+                        margin-bottom: 20px;
+                        
+                        a{
+                            display: block;
+                            height:34px;
+                            line-height:34px;
+                            padding:0 10px;
+                            float:left;
+                            cursor: pointer;
+                            position: relative;
+                        }
+                        a.light{
+                            color:#E6133C;
+                            span{
+                                position: absolute;
+                                width:100%;
+                                left:0;
+                                bottom: -2px;
+                                height:3px;
+                                background:#E6133C;
+                            }
+                        }
+                        a:hover{
+                            span{
+                                position: absolute;
+                                width:100%;
+                                left:0;
+                                bottom: -2px;
+                                height:3px;
+                                background:#E6133C;
+                            }
+                        }
+                    }
+                    .plpagebox{
+                        margin: 0 auto;
+                       .plpage{
+                           display: inline-block;
+                       }
+                       a{
+                           display: inline-block;
+                           height:25px;
+                           line-height: 25px;
+                           padding:0 10px;
+                           border:1px #aaa solid;
+                           background:#eee;
+                           margin-left: 5px;
+                       }
+                       a:hover{
+                           background:#fff;
+                           color:#666;
+                       }
+                       a.on{
+                           background: #E6133C;
+                           color:white;
+                           border-color:#E6133C;
+                       }
+                    }
+                }               
+            }
+            li.active{
+                display: block;               
+            }
+        }
+    }
+}
+.details_bottom:after{
+    display: block;
+    clear:both;
+    content: "";
+    zoom: 1;
+}
+.plcardbox{
+    margin-bottom: 20px;
+}
+.plcard:after{
+    content: "";
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+.plcard{
+    min-height:150px;
+    border-bottom:dashed 1px #ddd;
+    padding:10px 0 10px 10px;
+    .cardl{
+        float:left;
+        width:150px;
+        text-align: center;
+        margin-right: 24px;
+        img{
+            margin-bottom: 10px;
+        }
+        .buyername,.buytime{
+            height:20px;
+            line-height: 20px;  
+            margin-bottom:10px ; 
+        }
+        .buyername{
+            color:#000;
+            font-size: 18px;
+        }
+        .buytime{
+            color:#666;
+        }
+    }
+    .cardr{
+        float:left;
+        .plstar{
+            height:40px;
+            line-height:40px;      
+        }
+        .plfirst{
+            color:#000000;
+            font-size: 14px;
+            height:30px;
+            line-height: 30px;;
+        }
+        .plpic{
+            min-height:30px;
+            .plbigpic{
+                img{
+                    border:1px solid #ddd;
+                }
+                display:none;
+            }
+            .plsmallpic{
+                height:70px;
+                padding:10px 0;
+
+                img{
+                    border:1px solid #ddd;
+                    margin-right: 10px;;
+                }
+            }
+        }
+        .pltime{
+            height:30px;
+            line-height: 30px;  
+            color:#666;
+        }
+        .plagain{
+            heigth:30px;
+            line-height: 30px;
+            font-size: 14px;
+            color:#666;
+        }
+    }
+}
+.addCarPicShow{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    display: none;
+    border:2px solid black;
+    background:url(../img/details/fangdajing/1.jpg) center top;
+    width:300px;
+    height:300px;
+    z-index:1000;
+}

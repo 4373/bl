@@ -1,0 +1,75 @@
+
+.plcard:after{
+    content: "";
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+.plcard{
+    min-height:150px;
+    border-bottom:dashed 1px #ddd;
+    padding:10px 0 10px 10px;
+    .cardl{
+        float:left;
+        width:150px;
+        text-align: center;
+        margin-right: 24px;
+        img{
+            margin-bottom: 10px;
+        }
+        .buyername,.buytime{
+            height:20px;
+            line-height: 20px;  
+            margin-bottom:10px ; 
+        }
+        .buyername{
+            color:#000;
+            font-size: 18px;
+        }
+        .buytime{
+            color:#666;
+        }
+    }
+    .cardr{
+        float:left;
+        .plstar{
+            height:40px;
+            line-height:40px;      
+        }
+        .plfirst{
+            color:#000000;
+            font-size: 14px;
+            height:30px;
+            line-height: 30px;;
+        }
+        .plpic{
+            min-height:30px;
+            .plbigpic{
+                img{
+                    border:1px solid #ddd;
+                }
+                display:none;
+            }
+            .plsmallpic{
+                height:70px;
+                padding:10px 0;
+
+                img{
+                    border:1px solid #ddd;
+                    margin-right: 10px;;
+                }
+            }
+        }
+        .pltime{
+            height:30px;
+            line-height: 30px;  
+            color:#666;
+        }
+        .plagain{
+            heigth:30px;
+            line-height: 30px;
+            font-size: 14px;
+            color:#666;
+        }
+    }
+}

@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*---侧边栏--*/
+#sidebar {
+  right: -280px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 318px;
+  z-index: 100;
+  background: white;
+}
+.sidebar-main {
+  background: #333;
+  position: absolute;
+  width: 38px;
+  left: 0;
+  top: 0;
+  height: inherit;
+  z-index: 101;
+  padding-top: 160px;
+}
+.sidebar-main .sideicon {
+  width: 38px;
+  height: 38px;
+  background: #333;
+  text-align: center;
+  line-height: 38px;
+  position: relative;
+  cursor: pointer;
+}
+.sidebar-main .sideicon:hover {
+  background: #d62233;
+}
+.sidebar-main .hide {
+  position: absolute;
+  width: 86px;
+  height: 36px;
+  border: 1px #ddd solid;
+  line-height: 36px;
+  background: #fff;
+  font-size: 14px;
+  text-align: center;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.3s;
+}
+.sidebar-main .hide:last-child {
+  height: 35px;
+}
+.sidebar-main .sideicon:hover .hide {
+  opacity: 1;
+  left: -88px;
+}
+.sidebar-main .sideicon:nth-child(4) {
+  margin-bottom: 160px;
+}
+.sidebar-main .shopcar {
+  background: #333;
+  height: 174px;
+  width: 43px;
+  text-align: center;
+  position: relative;
+  right: 5px;
+  margin: 5px 0 10px;
+  cursor: pointer;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+.sidebar-main .shopcar img {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.sidebar-main .shopcar .iconfont {
+  display: inline-block;
+  margin-top: 36px;
+}
+.sidebar-main .shopcar span {
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 10px 15px;
+  font-weight: bolder;
+  color: white;
+  writing-mode: vertical-lr;
+  cursor: pointer;
+}
+.sidebar-main .shopcar b {
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+  background: #d62233;
+  color: white;
+  text-align: center;
+  line-height: 18px;
+  margin-left: 15px;
+}
+.sidebar-main .shopcar:hover {
+  background: #d62233;
+}
+.sidebar-main .code {
+  display: none;
+}
+.sidebar-main .iconfont {
+  font-size: 26px;
+  color: white;
+}
+.sidebar-content {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  height: inherit;
+  width: 280px;
+  z-index: 110;
+}
+.sidebar-content h2 {
+  height: 42px;
+  line-height: 42px;
+  padding-left: 20px;
+  background: #F2F2F2;
+}
+.sidebar-content h2 i {
+  cursor: pointer;
+  margin-left: -5px;
+  transition: 0.3s;
+}
+.sidebar-content h2 i:hover {
+  margin-left: 0px;
+}
+.sidebar-content .sbcontent {
+  background: url(../img/details/shopcarbg.png) center center no-repeat;
+  min-height: 600px;
+}
+.sidebar-content .sbcontent .sbcard {
+  height: 70px;
+  position: relative;
+  top: 0px;
+  font-size: 13px;
+  color: #666;
+}
+.sidebar-content .sbcontent .sbcard .sbcleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.sidebar-content .sbcontent .sbcard .sbcleft img {
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+.sidebar-content .sbcontent .sbcard .sbcleft img:hover {
+  border-color: #aaa;
+}
+.sidebar-content .sbcontent .sbcard .sbcright {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 210px;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrt {
+  height: 30px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrt .sbcrtl {
+  float: left;
+  width: 100px;
+  height: 30px;
+  line-height: 15px;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrt .sbcrtr {
+  float: right;
+  margin-right: 5px;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrt:hover {
+  color: #222;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb {
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb .sbcrb2 {
+  height: 30px;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb .sbcrb2 div {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px #ddd solid;
+  color: #ccc;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb .sbcrb2 div:last-child {
+  margin-left: 120px;
+  background: #999;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb .sbcrb2 div:hover {
+  background: #999;
+  border-color: #999;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb .sbcrb2 div:hover i {
+  color: white;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb .sbcrb2 div:last-child:hover {
+  background: #000;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb .sbcrb2 .shopCount {
+  margin: 0 10px;
+}
+.sidebar-content .sbcontent .sbcard .sbcright .sbcrb .sbcrb1 {
+  height: 30px;
+}
+.sidebar-content .sbcontent .sbcard:hover {
+  background: #f2f2f2;
+}
+.sidebar-content .sbcontent .sbcard:hover .sbcrb1 {
+  display: none;
+}
+.sidebar-content .sidebar-foot {
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 270px;
+  padding-left: 10px;
+  background: #f2f2f2;
+}
+.sidebar-content .sidebar-foot p {
+  padding: 3px 0;
+  color: #444;
+  font-size: 13px;
+}
+.sidebar-content .sidebar-foot p span {
+  color: #E6133C;
+}
+.sidebar-content .sidebar-foot .tobuyit {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.sidebar-content .sidebar-foot .tobuyit input {
+  width: 260px;
+  height: 40px;
+  font-weight: bold;
+  background: #D62233;
+  outline: 0;
+  border: 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sidebar-content .sidebar-foot .tobuyit input:hover {
+  background: red;
+}
+/*# sourceMappingURL=side.css.map */

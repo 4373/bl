@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/bldetails.css" />
+		<link rel="stylesheet" type="text/css" href="../css/detailsByLess.css" />
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+		<style type="text/css">
+			@font-face {
+				font-family: 'iconfont';
+				src: url('../iconfont/iconfont.eot');
+				/* IE9*/
+				src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+				url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+				url('../iconfont/iconfont.svg#iconfont') format('svg');
+				/* iOS 4.1- */
+			}
+			
+			.iconfont {
+				font-family: "iconfont";
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		<div id="tools">
+			<div class='wrap'>
+				<div class='tools-left'>
+					<div class='tools-left-show'>
+						<a href="../index.html">网站导航<i></i></a>
+					</div>
+					<div class='tools-left-hover'>
+						<dl>
+							<dd>
+								<a href="../index.html">百联集团官网</a>
+							</dd>
+							<dd>
+								<a href="../index.html">安付宝网</a>
+							</dd>
+							<dd>
+								<a href="../index.html">第一医药</a>
+							</dd>
+							<dd>
+								<a href="../index.html">会员卡专区</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class='tools-right'>
+					<ul>
+						<li id='user-not-login'>
+							<div class='toolsrdiv'>
+								<a href="login.html"><span>请登录</span></a>
+								<a href="regist.html">注册</a>
+							</div>
+							<b></b>
+						</li>
+						<li id='user-login-in' style='display:none' >
+							<div class='toolsrdiv'>
+								<a href="javascript:;">hi,<span id='userName'></span></a>
+								<a href="javascript:;">退出</a>
+							</div>
+							<b></b>
+						</li>
+						<li>
+							<div class='toolsrdiv'>
+								<a href="../index.html">我的订单</a>
+							</div>
+							<b></b>
+						</li>
+						<li class='limybl'>
+							<div class='toolsrdiv'>
+								<a href="../index.html"><span>我的百联</span></a>
+							</div>
+							<b></b>
+							<div class='toolsrdivhover mybl'>
+								<dl>
+									<dd>
+										<a href="../index.html">我的订单</a>
+									</dd>
+									<dd>
+										<a href="../index.html">我的评价</a>
+									</dd>
+									<dd>
+										<a href="../index.html">我的积分</a>
+									</dd>
+									<dd>
+										<a href="../index.html">我的收藏</a>
+									</dd>
+
+								</dl>
+							</div>
+						</li>
+						<li class='liczjf'>
+							<div class='toolsrdiv'>
+								<a href="../index.html"><span>充值缴费</span></a>
+							</div>
+							<b></b>
+							<div class='toolsrdivhover czjf'>
+								<dl>
+									<dd>
+										<p>水电煤缴费</p>
+										<a href="../index.html">缴费首页</a>
+										<a href="../index.html">水电缴费</a>
+										<a href="../index.html">电费缴费</a>
+										<a href="../index.html">燃气缴费</a>
+									</dd>
+									<dd>
+										<p>手机充值</p>
+										<a href="../index.html">手机充值</a>
+										<a href="../index.html">流量充值</a>
+										<a href="../index.html">更多充值</a>
+									</dd>
+									<dd>
+										<p>其他缴费</p>
+										<a href="../index.html">加油卡充值</a>
+										<a href="../index.html">固话/宽带充值</a>
+										<a href="../index.html">铁通缴费</a>
+										<a href="../index.html">有限电视缴费</a>
+									</dd>
+									<dd>
+										<p>游戏点卡</p>
+										<a href="../index.html">腾讯Q币充值</a>
+										<a href="../index.html">盛大点券充值</a>
+										<a href="../index.html">更多游戏</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class='likf'>
+							<div class='toolsrdiv'>
+								<a href="../index.html"><span>客服服务</span></a>
+							</div>
+							<b></b>
+							<div class='toolsrdivhover kf'>
+								<dl>
+									<dd>
+										<a href="../index.html">在线客服</a>
+									</dd>
+									<dd>
+										<a href="../index.html">帮助中心</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class='liblapp'>
+							<div class='toolsrdiv'>
+								<a href="../index.html"><span>掌上百联</span></a>
+							</div>
+							<b></b>
+							<div class='toolsrdivhover blapp'>
+								<a href="../index.html"><img src="../img/res13849.jpg" /></a>
+								<p>i百联APP</p>
+								<span>手机购物更方便</span>
+							</div>
+						</li>
+						<li>
+							<div class='toolsrdiv'>
+								<a href="../index.html"><span>购物车</span></a>
+							</div>
+							<b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+			<div class='wrap'>
+				<div class='header-in'>
+					<div class="header-logo">
+						<div class='logo'>
+							<a href="../index.html"><img src="../img/header-logo.png" /></a>
+						</div>
+						<div class='header-ad'>
+							<a href="../index.html"><img src="../img/res19300.jpg" /></a>
+						</div>
+					</div>
+					<div class="header-search">
+						<!--top里面包括输入框,按钮,以及建议-->
+						<div class="header-search-top">
+							<!--包括输入框和建议-->
+							<div class="header-search-input">
+								<!--包裹文本框的div-->
+								<div class='indiv'>
+									<input type="text" id="searchText" />
+								</div>
+								<div class="header-search-history">
+									<span>历史搜索</span>
+									<a href="../index.html"><i></i>清除</a>
+								</div>
+							</div>
+							<div class="header-search-botton">
+								<botton type='submit'></botton>
+							</div>
+						</div>
+						<!--s搜索框下面的建议-->
+						<div class="header-search-font">
+							<a href="../index.html">美心月饼</a>
+							<span>|</span>
+							<a href="../index.html">神像养生</a>
+							<span>|</span>
+							<a href="../index.html">奥莱代购</a>
+							<span>|</span>
+							<a href="../index.html">防晒护肤</a>
+							<span>|</span>
+							<a href="../index.html">牛排</a>
+							<span>|</span>
+							<a href="../index.html">口红</a>
+							<span>|</span>
+							<a href="../index.html">运动鞋</a>
+							<span>|</span>
+							<a href="../index.html">凉席</a>
+							<span>|</span>
+							<a href="../index.html">美容仪</a>
+						</div>
+					</div>
+					<div class='header-anfubao'>
+						<div class="anfubao">
+							<a href="../index.html">安付宝OK卡专区 <b> ></b></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class='wrap'>
+				<div class="nav-left">
+					<div class="nav-leftfont">
+						<i class="iconfont">&#xe602;</i>
+						<a href="../index.html"><span>所有商品分类</span></a>
+					</div>
+					<div class="show-nav">
+						<div class="nav-item">
+							<ul>
+								<li>
+									<i class='iconfont'>&#xe676;</i>
+									<span>
+										<a href="../index.html">百联进口</a>
+										<a href="../index.html">全球购</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe675;</i>
+									<span>
+										<a href="../index.html">生鲜食品</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe638;</i>
+									<span>
+										<a href="../index.html">食品  酒饮  粮油</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe65a;</i>
+									<span>
+										<a href="../index.html">美容护理</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe649;</i>
+									<span>
+										<a href="../index.html">母婴  玩具</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe637;</i>
+									<span>
+										<a href="../index.html">餐厨用具  家居家装</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe636;</i>
+									<span>
+										<a href="../index.html">家清  纸品  一次性</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe604;</i>
+									<span>
+										<a href="../index.html">女装  男装</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe605;</i>
+									<span>
+										<a href="../index.html">鞋靴箱包</a>
+										<a href="../index.html">珠宝饰品</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe62b;</i>
+									<span>
+										<a href="../index.html">手机数码  电脑办公</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe62c;</i>
+									<span>
+										<a href="../index.html">家用电器</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe658;</i>
+									<span>
+										<a href="../index.html">运动户外</a>
+										<a href="../index.html">汽车用品</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe62c;</i>
+									<span>
+										<a href="../index.html">营养滋补 保健器械</a>
+									</span>
+								</li>
+								<li>
+									<i class='iconfont'>&#xe658;</i>
+									<span>
+										<a href="../index.html">礼品卡</a>
+										<a href="../index.html">充值缴费</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="nav-item-data">
+							<!--不移入里面没有数据-->
+							<div class="gb-icon"></div>
+
+						</div>
+					</div>
+				</div>
+				<div class="nav-right">
+					<ul>
+						<li class='on'>
+							<a href="../index.html">首页<span></span></a>
+						</li>
+						<li>
+							<a href="../index.html">生活日用<span></span></a>
+						</li>
+						<li>
+							<a href="../index.html">24H百货<span></span></a>
+						</li>
+						<li>
+							<a href="../index.html">全球购<span></span></a>
+						</li>
+						<li>
+							<a href="../index.html"><img src="../img/nav-gif.gif" /><span></span></a>
+						</li>
+						<li>
+							<a href="../index.html">电器城<span></span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-gif">
+					<img src="../img/kdj_car.gif" />
+				</div>
+			</div>
+		</div>
+		<!--侧边栏-->
+		<div id='sidebar'>
+			<div class="sidebar-main">
+				<!--我的信息-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe659;</i>
+					<div class="hide">我的信息</div>
+				</div>
+				<!--购物车-->
+				<div class="shopcar">
+					<i class='iconfont'>&#xe65e;</i>
+					<span>购物车</span>
+					<b class='shopCount'>0</b>
+					<img src="../img/slide.png" />
+				</div>
+				<!--我的收藏-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe617;</i>
+					<div class="hide">我的收藏</div>
+				</div>
+				<!--浏览历史-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe67a;</i>
+					<div class="hide">浏览历史</div>
+				</div>
+				<!--二维码-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe665;</i>
+					<div class="code"></div>
+				</div>
+				<!--我的客服-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe603;</i>
+					<div class="hide">我的客服</div>
+				</div>
+			</div>
+			<div class="sidebar-content">
+				<h2><i class='iconfont'>&#xe67f;</i></h2>
+				<div class="sbcontent">
+					
+				</div>
+
+			</div>
+			
+		</div>
+		<div id="main">
+			<!-------------------------------------------------------------------------------------------------->
+			<div class="wrap">
+				<div class="details_top">
+					<div class="detail_fangdajing">
+						<div class='pic_box'>
+							<span id="cube"></span>
+							<img src="../img/details/fangdajing/1.jpg" />
+						</div>
+						<ul class="pic_list">
+							<li on="t"><img src="../img/details/fangdajing/1.jpg" width='60' /></li>
+							<li><img src="../img/details/fangdajing/2.jpg" width='60' /></li>
+							<li><img src="../img/details/fangdajing/3.jpg" width='60' /></li>
+							<li><img src="../img/details/fangdajing/4.jpg" width='60' /></li>
+							<li><img src="../img/details/fangdajing/5.jpg" width='60' /></li>
+						</ul>
+						<div class="big_pic">
+							<img src="../img/details/fangdajing/b1.jpg" />
+						</div>
+					</div>
+					<div class="detail_price">
+						<h2>乐卡克 针织运动长裤 CY-4671153/麻灰色/S</h2>
+						<div class="timer">
+							该商品将在<span class='rday'></span>天<span class='rhour'></span>小时<span class='rmin'></span>' <span class='rsec'></span>" 后价格回升
+						</div>
+						<div class="newPrice">
+							<img src="../img/details/background_03.jpg" />
+						</div>
+						<div class="tobuy">
+							<div class="thingscount">
+								购买数量
+								<div class="btnbox">
+									<input type="text" id="thingscount" value="1" />
+									<button id='add'><i class="iconfont">&#xe608;</i></button>
+									<button id='remove'><i class="iconfont">&#xe606;</i></button>
+								</div>
+							</div>
+							<div class="buybox">
+								<div class="buynow">
+									立即购买
+								</div>
+								<div class="addcar">
+									<i class='iconfont'>&#xe65e;</i>加入购物车
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="detail_other">
+						<img src="../img/details/other_03.jpg" />
+					</div>
+				</div>
+				<!--top-->
+				<div class="details_bottom">
+					<div class="d_b_left">
+						<img src="../img/details/detailspage_03.jpg" />
+					</div>
+					<div class="d_b_right">
+						<ul class="thingsinfo">
+							<li class="active">商品介绍<span></span></li>
+							<li>参数及包装<span></span></li>
+							<li>售后服务<span></span></li>
+							<li class='pj'>评价详情<span></span></li>
+						</ul>
+						<ul class="infodetails">
+							<li class='active'><img src="../img/details/detailspage_06.jpg" /></li>
+
+							<li>
+								<div class="shouhou">
+									<div class="shtitle">参数及包装</div>
+									<div class="shcontent">参数及包装被马蓉卷跑啦</div>
+								</div>
+							</li>
+							<li>
+								<div class='shouhou'>
+									<div class="shtitle">售后服务</div>
+									<div class="shcontent">i百联向您保证所售商品均为正品行货，请放心购买！ <br/>如我们的商品不能让您满意，您可通过“帮助中心→售后服务→《退换货政策》”查询退换货相关规则及流程。特别说明：<br/> 1、闪购商品不支持换货。<br/> 2、由于部分商品包装更换较为频繁，请您以收到的商品实物为准。<br/> 3、因拍摄灯光及不同显示器色差等原因造成商品图片与实物有色差，一切以实物为准。</div>
+								</div>
+							</li>
+							<li>
+								<div class="sppl">
+									<ul class='plkind'>
+										<a class='light'>全部评论(<b class='reviewcount'></b>)<span></span></a>
+										<a>好评(<b class='goodr'></b>)<span></span></a>
+										<a>中评(<b class='nbadr'></b>)<span></span></a>
+										<a>差评(<b class='badr'></b>)<span></span></a>
+										<a>有晒单(<b class='showthis'></b>)<span></span></a>
+										<a>追评(<b class='againr'></b>)<span></span></a>
+									</ul>
+
+									<div class="plcardbox">
+
+												
+												
+										
+									</div>
+									<div class="plpagebox">
+										<a href="javascript:;" class="pagemove">上一页</a>
+										<div class="plpage">									
+										</div>										
+										<a href="javascript:;"  class="pagemove">下一页</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--wrap-->
+		</div>
+
+		<div id="footer">
+			<div class="wrap">
+				<div class="ftop">
+					<div class="ftcard">
+						<div><img src="../img/footer5.png" />新手入门</div>
+						<ul>
+							<li>物流购物</li>
+							<li>会员介绍</li>
+							<li>常见问题</li>
+							<li>发票说明</li>
+							<li>练习客服</li>
+						</ul>
+					</div>
+					<div class="ftcard">
+						<div><img src="../img/footer4.png" />配送服务</div>
+						<ul>
+
+							<li>配送范围及运费</li>
+							<li>配送进度查询</li>
+							<li>自提服务</li>
+							<li>商品验货与签收</li>
+						</ul>
+					</div>
+					<div class="ftcard">
+						<div><img src="../img/footer3.png" />支付方式</div>
+						<ul>
+							<li>货到付款</li>
+							<li>在线支付</li>
+						</ul>
+					</div>
+					<div class="ftcard">
+						<div><img src="../img/footer1.png" />售后服务</div>
+						<ul>
+							<li>退换货政策</li>
+							<li>退换货流程</li>
+							<li>退款说明</li>
+						</ul>
+					</div>
+					<div class="ftcard">
+						<div><img src="../img/footer2.png" />特色服务</div>
+						<ul>
+							<li>鲜有集市</li>
+							<li>生鲜随便定</li>
+							<li>精选篮筐</li>
+							<li>全球购</li>
+							<li>精品山沟</li>
+							<li>百联到家</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<div class="fbottom">
+				<div class='aboutus'>
+					<a href="../index.html">关于我们</a><span>|</span>
+					<a href="../index.html">联系我们</a><span>|</span>
+					<a href="../index.html">加盟合作</a><span>|</span>
+					<a href="../index.html">诚征英才</a><span>|</span>
+					<a href="../index.html">友情链接</a>
+				</div>
+				<div class="copyright">
+					百联集团有限公司旗下 上海百联全渠道电子商务有限公司版权所有
+					<span>|</span> 客服电话：400-900-8800
+					<span>|</span> 沪ICP备15028847号
+				</div>
+				<a class='drug' href="#">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+				<div class="police">
+					<a href="../index.html"><img src="../img/police1.png" /><span>沪公网安备  31010102002366号</span></a>
+					<a href="../index.html"><img src="../img/police2.png" /><span>网购大家评</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="addCarPicShow"></div>
+	</body>
+	<script src="../js/jquery-1.8.2.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/details.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="../js/side.js"></script>
+</html>

@@ -1,0 +1,738 @@
+{
+	"all":{
+		"count":70,
+		"good":40,
+		"notbad":21,
+		"bad":9,
+		"show":26,
+		"additional":28
+	},
+	"data":[
+		{
+			"head":"../img/details/head.png",
+			"name":"爱爱恩",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"精选篮筐，再加优惠券，实在太划算，爱生活，爱百联",
+			"picbig":"../img/details/fangdajing/b1.jpg",
+			"picsmall":"../img/details/fangdajing/1.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"挺不错的，可以",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"yangjie",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"比超市优惠好多",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常好看",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"还可以,很实惠",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:现在已经坏了"	,
+			"pingjia":0	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"带上飞机撒来对付",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"洗衣液很不错，洗洁精太多了！用不了那么多",
+			"picbig":"../img/details/fangdajing/b5.jpg",
+			"picsmall":"../img/details/fangdajing/5.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常喜欢",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"yrn",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"包装很好，快递也很快",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"婷婷",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"听说15个字可以惛惛惛惛惛惛惛经验",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"fdf",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"只能说一般般,穿着不好看",
+			"picbig":"../img/details/fangdajing/b3.jpg",
+			"picsmall":"../img/details/fangdajing/3.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"hl***25",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"不错，性价比很高，第二次买了   ",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"wef",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"将就将就,懒得换了",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"liwenwen",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"买来不能穿",
+			"picbig":"../img/details/fangdajing/b4.jpg",
+			"picsmall":"../img/details/fangdajing/4.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1	
+	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"hl***25",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"东西很好！又实惠便宜！快递很给力～～很方便！最好呢多搞些这些活动！",
+			"picbig":"../img/details/fangdajing/b1.jpg",
+			"picsmall":"../img/details/fangdajing/1.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:很好 ,还没坏",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"dsdgs",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"能大牌子，值得信赖，性价比高的一款洗衣液",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常好看",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"还可以,很实惠,非常不错！",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:现在已经坏了"	,
+			"pingjia":0	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"带上飞机撒来对付",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"好大一桶，太合算了！包装很好没有漏的！",
+			"picbig":"../img/details/fangdajing/b5.jpg",
+			"picsmall":"../img/details/fangdajing/5.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常喜欢",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"zzzzzzzz",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"包装很好，快递也很快",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"pppppppp",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"活动给力 快递迅速 东西质量应该也不错哦 值得推荐",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"fdf",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"只能说一般般,穿着不好看",
+			"picbig":"../img/details/fangdajing/b3.jpg",
+			"picsmall":"../img/details/fangdajing/3.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"首先物流非常给力，第一天下的单，第二天就送到了，其次包装的非常好，瓶身外边裹了层厚厚的保鲜膜，保证洗衣液不会洒出来，太细心了，好大一桶，可以用好久了！！",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"wef",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"将就将就,懒得换了",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"liwenwffen",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"买来不能穿",
+			"picbig":"../img/details/fangdajing/b4.jpg",
+			"picsmall":"../img/details/fangdajing/4.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1	
+	
+		},		{
+			"head":"../img/details/head.png",
+			"name":"mihfsdn",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"虽然原价要比外面超市略贵些，但是做活动时买进还是可以的",
+			"picbig":"../img/details/fangdajing/b1.jpg",
+			"picsmall":"../img/details/fangdajing/1.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:很好 ,还没坏",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"yad",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"买了好多次了，洗衣液很好用",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常好看",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"还可以,很实惠",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:现在已经坏了"	,
+			"pingjia":0	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"紫藤镜子",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"买减活动，价格超级实惠，放心，安心，足不出户便有实恵送到家",
+			"picbig":"../img/details/fangdajing/b5.jpg",
+			"picsmall":"../img/details/fangdajing/5.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常喜欢",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"地方",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"我买了好几瓶，还送了我 i妹妹，婆婆，挺好，这个还有点淡淡的香味，不错",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"kjkl",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"太小了,不能穿",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"fdf",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"只能说一般般,穿着不好看",
+			"picbig":"../img/details/fangdajing/b3.jpg",
+			"picsmall":"../img/details/fangdajing/3.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"赞赞哒赞赞哒赞赞哒赞赞哒赞赞哒赞赞哒赞赞哒赞赞哒赞赞哒赞赞哒",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"wef",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"将就将就,懒得换了",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"j***d",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"买来不能穿",
+			"picbig":"../img/details/fangdajing/b4.jpg",
+			"picsmall":"../img/details/fangdajing/4.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1	
+	
+		},		{
+			"head":"../img/details/head.png",
+			"name":"j***z",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"宝贝质量好，物流快，喜欢，棒棒哒，下次还来～",
+			"picbig":"../img/details/fangdajing/b1.jpg",
+			"picsmall":"../img/details/fangdajing/1.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:很好 ,还没坏",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"的***得",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"哈哈，很喜欢，以后看到好看的会再来的",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常好看",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"可以的",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:现在已经坏了"	,
+			"pingjia":0	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"工***个",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"忙了，都忘记了，不好意思,还能说什么呢,能碰到老板这个店，够幸福的",
+			"picbig":"../img/details/fangdajing/b5.jpg",
+			"picsmall":"../img/details/fangdajing/5.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常喜欢",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"yrn",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"包装很好，快递也很快",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"E***0",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"去年买的，穿起来很好，结果今年又买了一个，居然布料完全不一样，失望",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"fdf",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"只能说一般般,穿着不好看",
+			"picbig":"../img/details/fangdajing/b3.jpg",
+			"picsmall":"../img/details/fangdajing/3.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"东东很不错,比意想的效果好,好卖家",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"wef",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"将就将就,懒得换了",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"kjkl",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"听说15个字可以惛惛惛惛惛惛惛经验",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1		
+		},
+				{
+			"head":"../img/details/head.png",
+			"name":"meihuan",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"包装很好",
+			"picbig":"../img/details/fangdajing/b1.jpg",
+			"picsmall":"../img/details/fangdajing/1.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:很好 ,还没坏",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"O***2",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"物流很快，还是那个小哥，真的很不错，裤子版型不错，穿着很宽松，舒服",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常好看",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"还可以,很实惠",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:现在已经坏了"	,
+			"pingjia":0	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"j***m",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"宝贝收到了，老公试了一下很喜欢也很好看，大小也刚好合适好评。",
+			"picbig":"../img/details/fangdajing/b5.jpg",
+			"picsmall":"../img/details/fangdajing/5.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常喜欢",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"j***s",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"裤子质量很好，便宜又实惠，穿着舒服，样式好看。下次再来购买，一次成功的网购",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"kjkl",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"太小了,不能穿",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"fdf",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"只能说一般般,穿着不好看",
+			"picbig":"../img/details/fangdajing/b3.jpg",
+			"picsmall":"../img/details/fangdajing/3.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"货一到就迫不及待拆开包装，第一感觉就是面料不错，手感也好。是绝对的正品",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"wef",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"将就将就,懒得换了",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"liwenwen",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"买来不能穿",
+			"picbig":"../img/details/fangdajing/b4.jpg",
+			"picsmall":"../img/details/fangdajing/4.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1	
+	
+		},		{
+			"head":"../img/details/head.png",
+			"name":"松***巴",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"头次买修身尝试下，效果出乎意料的好，就是米白色不怎么耐脏，准备换个颜色再来一条",
+			"picbig":"../img/details/fangdajing/b1.jpg",
+			"picsmall":"../img/details/fangdajing/1.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:很好 ,还没坏",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"h***e",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"质量还是哼好的，样式之类的看起来比较高档。手感摸起来也很好，就等待穿着一下试试感觉了，后续追评",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常好看",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"还可以,很实惠",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:现在已经坏了"	,
+			"pingjia":0	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"k***g",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"店铺确实很不错，收藏了~",
+			"picbig":"../img/details/fangdajing/b5.jpg",
+			"picsmall":"../img/details/fangdajing/5.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常喜欢",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"j***j",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"不错不错，这样的老板我喜欢~~~~",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"kjkl",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"听说15个字可以惛惛惛惛惛惛惛经验",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"fdf",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"只能说一般般,穿着不好看",
+			"picbig":"../img/details/fangdajing/b3.jpg",
+			"picsmall":"../img/details/fangdajing/3.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"一般般啦   ",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"wef",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"将就将就,懒得换了",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"kjkl",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"听说15个字可以惛惛惛惛惛惛惛经验",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1		
+		},		{
+			"head":"../img/details/head.png",
+			"name":"meihuan",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"包装很好",
+			"picbig":"../img/details/fangdajing/b1.jpg",
+			"picsmall":"../img/details/fangdajing/1.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:很好 ,还没坏",
+			"pingjia":1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"yangjie",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"比超市优惠好多",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常好看",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"还可以,很实惠",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:现在已经坏了"	,
+			"pingjia":0	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"带上飞机撒来对付",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"比超市优惠好多",
+			"picbig":"../img/details/fangdajing/b5.jpg",
+			"picsmall":"../img/details/fangdajing/5.jpg",
+			"pltime":"2016-05-23 09:09",
+			"plagain":"追加:非常喜欢",
+			"pingjia":1			
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"yrn",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"包装很好，快递也很快",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"kjkl",
+			"buytime":"2016-05-22 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"太小了,不能穿",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"fdf",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"只能说一般般,穿着不好看",
+			"picbig":"../img/details/fangdajing/b3.jpg",
+			"picsmall":"../img/details/fangdajing/3.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"匿名用户",
+			"buytime":"2014-03-28 09:09",
+			"plstar":"../img/details/good.jpg",
+			"plfirst":"一般般啦   ",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":1	
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"wef",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/notbad.jpg",
+			"plfirst":"尺码偏小，换了一次还是小，不是品质问题自己还要贴运费，懒得换了，给老爷子穿算了",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":0	
+		
+		},
+		{
+			"head":"../img/details/head.png",
+			"name":"打开看看",
+			"buytime":"2016-05-28 09:09",
+			"plstar":"../img/details/bad.jpg",
+			"plfirst":"一是松紧带宁径了，二是直接开线。问客服就懒得说了，感觉京东快要变成涛包了！",
+			"picbig":"../img/details/fangdajing/b4.jpg",
+			"picsmall":"../img/details/fangdajing/4.jpg",
+			"pltime":"2016-05-23 09:09",
+			"pingjia":-1	
+	
+		}
+	]
+
+}

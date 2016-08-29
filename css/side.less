@@ -1,0 +1,274 @@
+*{
+    padding:0;
+    margin: 0;
+}
+/*---侧边栏--*/
+#sidebar {
+    right: -280px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 318px;
+    z-index: 100;
+    background:white;
+}
+.sidebar-main {
+    background: #333;
+    position: absolute;
+    width: 38px;
+    left: 0;
+    top: 0;
+    height: inherit;
+    z-index: 101;
+    padding-top:160px;
+    .sideicon {
+        width: 38px;
+        height: 38px;
+        background: #333;
+        text-align: center;
+        line-height: 38px;
+        position: relative;
+        cursor: pointer;
+    }
+    .sideicon:hover {
+        background: #d62233;
+    }
+    .hide {
+        position: absolute;
+        width: 86px;
+        height: 36px;
+        border: 1px #ddd solid;
+        line-height: 36px;
+        background: #fff;
+        font-size: 14px;
+        text-align: center;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: 0;
+        transition: 0.3s;
+    }
+    .hide:last-child {
+        height: 35px;
+    }
+    .sideicon:hover .hide {
+        opacity: 1;
+        left: -88px;
+    }
+    .sideicon:nth-child(4) {
+        margin-bottom: 160px;
+    }
+    .shopcar {
+        background: #333;
+        height: 174px;
+        width: 43px;
+        text-align: center;
+        position: relative;
+        right: 5px;
+        margin: 5px 0 10px;
+        cursor: pointer;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+        img {
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        .iconfont {
+            display: inline-block;
+            margin-top: 36px;
+        }
+        span {
+            display: block;
+            font-size: 14px;
+            margin: 10px 0 10px 15px;
+            font-weight: bolder;
+            color: white;
+            writing-mode: vertical-lr;
+            cursor: pointer;
+        }
+        b {
+            font-weight: bold;
+            width: 20px;
+            height: 20px;
+            display: block;
+            border-radius: 50%;
+            background: #d62233;
+            color: white;
+            text-align: center;
+            line-height: 18px;
+            margin-left: 15px;
+        }
+    }  
+    .shopcar:hover {
+        background: #d62233;
+    }
+    .code {
+        display: none;
+    }
+    .iconfont {
+        font-size: 26px;
+        color: white;
+    }
+}
+.sidebar-content{
+    position:absolute;
+    top:0px;
+    right:0;
+    height:inherit;
+    width:280px;
+    z-index: 110;
+    h2{
+       height:42px; 
+       line-height: 42px;
+       padding-left:20px;
+       background:#F2F2F2;
+       i{
+           cursor: pointer;
+           margin-left: -5px;
+           transition:0.3s;
+       }
+       i:hover{
+           margin-left: 0px;
+       }
+    }   
+    .sbcontent{
+        background:url(../img/details/shopcarbg.png) center center no-repeat;
+        min-height: 600px;
+        .sbcard{
+            height:70px;
+            position:relative;
+            top:0px;
+            font-size:13px;
+            color:#666;
+            .sbcleft{
+                position:absolute;
+                top:0;
+                left: 0;
+                width:50px;
+                height:50px;
+                padding:10px;
+                img{
+                    cursor: pointer;
+                    border:1px solid #ddd;
+                }
+                img:hover{
+                    border-color:#aaa;
+                }
+                
+            }
+            .sbcright{
+                position:absolute;
+                top:0;
+                right: 0;
+                width:210px;
+                .sbcrt{
+                    height:30px;
+                    cursor: pointer;
+                    padding-top:10px;
+                    .sbcrtl{
+                         float:left;
+                         width:100px;
+                         height:30px;
+                         line-height: 15px;
+                    }
+                    .sbcrtr{
+                        float:right;
+                        margin-right: 5px;
+                    }
+                    
+                }
+                .sbcrt:hover{
+                    color:#222;
+                }
+                .sbcrb{
+                       overflow: hidden;
+                    height:30px;
+                    line-height:30px;
+                    .sbcrb2{
+	                     height:30px;
+                        div{
+                            display:inline-block;
+                            height:16px;
+                            width:16px;
+                            line-height: 16px;
+                            text-align: center;
+                            border-radius: 8px;
+                            cursor: pointer;
+                            border:1px #ddd solid;
+                            color:#ccc;
+                        }
+                        div:last-child{
+                            margin-left: 120px;
+                            background:#999;
+                        }
+                        div:hover{
+                            background:#999;
+                            border-color:#999;
+                        }
+                        div:hover i{
+                            color:white;
+                        }
+                        div:last-child:hover{
+                            background:#000;
+                        }
+                        .shopCount{
+                            margin: 0 10px;
+                        }
+                        
+                    }
+                    .sbcrb1{
+                        height:30px;
+                    }
+                }
+            }
+            
+        }
+        .sbcard:hover{
+           background:#f2f2f2; 
+        }
+        .sbcard:hover .sbcrb1{
+            display: none;
+        }
+       
+    }
+    .sidebar-foot{
+        height:100px;
+
+        position: absolute;
+        bottom:0;
+        width:270px;
+        padding-left:10px;
+        background:#f2f2f2;
+        p{  
+            padding:3px 0;
+            color:#444;
+            font-size: 13px;
+            span{
+                color:#E6133C;
+            }
+
+        }
+        .tobuyit{
+            height:60px;
+            line-height:60px;
+            text-align: center;
+            input{
+                width:260px;
+                height:40px;
+                font-weight: bold;
+                background:#D62233;
+                outline:0;
+                border:0;
+                color:white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            input:hover{
+                 background:red;
+            }
+        }
+        
+    }
+}
+

@@ -1,0 +1,75 @@
+.plcard:after {
+  content: "";
+  display: block;
+  clear: both;
+  zoom: 1;
+}
+.plcard {
+  min-height: 150px;
+  border-bottom: dashed 1px #ddd;
+  padding: 10px 0 10px 10px;
+}
+.plcard .cardl {
+  float: left;
+  width: 150px;
+  text-align: center;
+  margin-right: 24px;
+}
+.plcard .cardl img {
+  margin-bottom: 10px;
+}
+.plcard .cardl .buyername,
+.plcard .cardl .buytime {
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.plcard .cardl .buyername {
+  color: #000;
+  font-size: 18px;
+}
+.plcard .cardl .buytime {
+  color: #666;
+}
+.plcard .cardr {
+  float: left;
+}
+.plcard .cardr .plstar {
+  height: 40px;
+  line-height: 40px;
+}
+.plcard .cardr .plfirst {
+  color: #000000;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+.plcard .cardr .plpic {
+  min-height: 30px;
+}
+.plcard .cardr .plpic .plbigpic {
+  display: none;
+}
+.plcard .cardr .plpic .plbigpic img {
+  border: 1px solid #ddd;
+}
+.plcard .cardr .plpic .plsmallpic {
+  height: 70px;
+  padding: 10px 0;
+}
+.plcard .cardr .plpic .plsmallpic img {
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+.plcard .cardr .pltime {
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+}
+.plcard .cardr .plagain {
+  heigth: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+}
+/*# sourceMappingURL=pl.css.map */

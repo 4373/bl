@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆</title>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+		<style type="text/css">
+			body {
+				background: url(../img/login.png) center 0 no-repeat;
+			}
+			
+			#loginBox {
+				width: 490px;
+				height: 250px;
+				margin: 192px auto 0;
+			}
+			
+			* {
+				padding: 0;
+				margin: 0;
+				font-family: 'Microsoft YaHei';
+			}
+			
+			div {
+				width: 300px;
+				margin: 0 auto;
+				background: white;
+			}
+			
+			.lgh {
+				height: 40px;
+				line-height: 40px;
+				margin-bottom: 30px
+			}
+			
+			.lgh h2 {
+				font-size: 18px;
+				float: left;
+				width: 100px;
+			}
+			
+			.lgh a {
+				float: right;
+				font-size: 12px;
+				color: #1F8FD5;
+				text-decoration: none
+			}
+			
+			.lgh a:hover {
+				text-decoration: underline;
+			}
+			
+			.lgm {
+				height: 180px;
+			}
+			
+			.lginput {
+				border: 1px solid #ddd;
+				height: 14px;
+				width: 268px;
+				margin-bottom: 20px;
+				padding: 10px 20px 10px 10px;
+			}
+			
+			.lginput input {
+				display: block;
+				border: 0;
+				outline: 0;
+				width: 268px;
+			}
+			
+			.lginput:last-child {
+				width:300px;
+				border:0;
+				padding:0;
+				margin-top: 50px;
+				background: #E6133C;
+
+			}
+			
+			.lginput:last-child input {
+				width: 100%;
+				background: #E6133C;
+				color: white;
+				height:36px;
+				display: inline-block;
+				line-height: 16px;
+				font-size: 16px;
+				cursor: pointer;
+			}
+			.lginput:last-child input:hover {
+				
+				background: red;
+			}
+			
+			
+			.errormes {
+				width: 180px;
+				margin-left: 95px;
+				height: 20px;
+				line-height: 20px;
+				color: #E6133C;
+				margin-bottom: 10px;
+				background: #FFFDF0;
+				border: 1px #FFBE5B solid;
+				padding-left: 10px;
+				font-size: 14px;
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id='loginBox'>
+			<div class="lgh">
+				<h2>会员登陆</h2>
+				<a href="regist.html">注册新账号</a>
+			</div>
+			<div class="errormes">
+				
+			</div>
+			<div class="lgm">
+				<div class="lginput">
+					<input type="text" name="userName" id="userName" placeholder="用户名/手机号/邮箱" />
+				</div>
+				<div class="lginput">
+					<input type="password" name="passWord" id="passWord" placeholder="密码" />
+				</div>
+				<div class="lginput">
+					<input type="button" name="lonin" id="lgbtn" value="登录" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-1.8.2.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/loginAndRegist.js" type="text/javascript" charset="utf-8"></script>
+</html>

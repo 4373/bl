@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bl.css"/>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+		<style type="text/css">
+			@font-face {
+				font-family: 'iconfont';
+			    src: url('iconfont/iconfont.eot'); /* IE9*/
+			    src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			    url('iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+			    url('iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+			    url('iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+			}
+			.iconfont{font-family:"iconfont";
+		</style>
+
+		
+	</head>
+	<body>
+		<!--下拉框-->
+		<div id='fileheader'>
+		</div>
+		<div id="tools">
+			<div class='wrap'>
+				<div class='tools-left'>
+					<div class='tools-left-show'>
+						<a href="#">网站导航<i></i></a>
+					</div>
+					<div class='tools-left-hover'>
+						<dl>
+							<dd><a href="html/details.html">百联集团官网</a></dd>
+							<dd><a href="html/details.html">安付宝网</a></dd>
+							<dd><a href="html/details.html">第一医药</a></dd>
+							<dd><a href="html/details.html">会员卡专区</a></dd>
+						</dl>
+					</div>
+				</div>
+				<div class='tools-right'>
+					<ul>
+						<li id='user-not-login' style='display:block'>
+							<div  class='toolsrdiv'>
+								<a href="html/login.html"><span>请登录</span></a>
+								<a href="html/regist.html">注册</a>
+							</div>
+							<b></b>
+						</li>
+						<li id='user-login-in' style='display:none'  >
+							<div class='toolsrdiv'>
+								<a href="javascript:;">hi,<span id='userName'></span></a>
+								<a href="javascript:;">退出</a>
+							</div>
+							<b></b>
+						</li>
+						<li>
+							<div class='toolsrdiv'>
+								<a href="html/details.html">我的订单</a>
+							</div>
+							<b></b>
+						</li>
+						<li class='limybl'>
+							<div class='toolsrdiv'>
+								<a href="html/details.html"><span>我的百联</span></a>
+							</div>
+							<b></b>
+							<div class='toolsrdivhover mybl'>
+								<dl>
+									<dd><a href="html/details.html">我的订单</a></dd>
+									<dd><a href="html/details.html">我的评价</a></dd>
+									<dd><a href="html/details.html">我的积分</a></dd>
+									<dd><a href="html/details.html">我的收藏</a></dd>
+									
+								</dl>
+							</div>
+						</li>
+						<li  class='liczjf'>
+							<div class='toolsrdiv'>
+								<a href="html/details.html"><span>充值缴费</span></a>
+							</div>
+							<b></b>
+							<div class='toolsrdivhover czjf'>
+								<dl>
+									<dd>
+										<p>水电煤缴费</p>
+										<a href="html/details.html">缴费首页</a>
+										<a href="html/details.html">水电缴费</a>
+										<a href="html/details.html">电费缴费</a>
+										<a href="html/details.html">燃气缴费</a>
+									</dd>
+									<dd>
+										<p>手机充值</p>
+										<a href="html/details.html">手机充值</a>
+										<a href="html/details.html">流量充值</a>
+										<a href="html/details.html">更多充值</a>
+									</dd>
+									<dd>
+										<p>其他缴费</p>
+										<a href="html/details.html">加油卡充值</a>
+										<a href="html/details.html">固话/宽带充值</a>
+										<a href="html/details.html">铁通缴费</a>
+										<a href="html/details.html">有限电视缴费</a>
+									</dd>
+									<dd>
+										<p>游戏点卡</p>
+										<a href="html/details.html">腾讯Q币充值</a>
+										<a href="html/details.html">盛大点券充值</a>
+										<a href="html/details.html">更多游戏</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class='likf'>
+							<div class='toolsrdiv'>
+								<a href="html/details.html"><span>客服服务</span></a>
+							</div>
+							<b></b>
+							<div class='toolsrdivhover kf'>
+								<dl>
+									<dd><a href="html/details.html">在线客服</a></dd>
+									<dd><a href="html/details.html">帮助中心</a></dd>
+								</dl>
+							</div>
+						</li>
+						<li class='liblapp'>
+							<div class='toolsrdiv'>
+								<a href="html/details.html"><span>掌上百联</span></a>
+							</div>
+							<b></b>
+							<div class='toolsrdivhover blapp'>
+								<a href="html/details.html"><img src="img/res13849.jpg"/></a>
+								<p>i百联APP</p>
+								<span>手机购物更方便</span>
+							</div>
+						</li>
+						<li>
+							<div class='toolsrdiv'>
+								<a href="html/details.html"><span>购物车</span></a>
+							</div>
+							<b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+			<div class='wrap'>
+				<div class='header-in'>
+					<div class="header-logo">
+						<div class='logo'>
+							<a href="html/details.html"><img src="img/header-logo.png"/></a>
+						</div>
+						<div class='header-ad'>
+							<a href="html/details.html"><img src="img/res19300.jpg"/></a>
+						</div>
+					</div>
+					<div class="header-search">
+						<!--top里面包括输入框,按钮,以及建议-->
+						<div class="header-search-top">
+							<!--包括输入框和建议-->
+							<div class="header-search-input">
+								<!--包裹文本框的div-->
+								<div class='indiv'>
+									<input type="text" id="searchText" />
+								</div>
+								<div class="header-search-history">
+									<span>历史搜索</span>
+									<a href="html/details.html"><i></i>清除</a>
+								</div>
+							</div>
+							<div class="header-search-botton">
+								<botton type='submit'></botton>
+							</div>
+						</div>
+						<!--s搜索框下面的建议-->
+						<div class="header-search-font">
+							<a href="html/details.html">美心月饼</a>
+							<span>|</span>
+							<a href="html/details.html">神像养生</a>
+							<span>|</span>
+							<a href="html/details.html">奥莱代购</a>
+							<span>|</span>
+							<a href="html/details.html">防晒护肤</a>
+							<span>|</span>
+							<a href="html/details.html">牛排</a>
+							<span>|</span>
+							<a href="html/details.html">口红</a>
+							<span>|</span>
+							<a href="html/details.html">运动鞋</a>
+							<span>|</span>
+							<a href="html/details.html">凉席</a>
+							<span>|</span>
+							<a href="html/details.html">美容仪</a>
+						</div>
+					</div>
+					<div class='header-anfubao'>
+						<div class="anfubao">
+							<a href="html/details.html">安付宝OK卡专区 <b> ></b></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class='wrap'>
+				<div class="nav-left">
+					<div class="nav-leftfont">
+						<i class="iconfont">&#xe602;</i>
+						<a href="html/details.html"><span>所有商品分类</span></a>
+					</div>
+					<div class="show-nav">
+						<div class="nav-item">
+							<ul>
+								<li>
+									<i  class='iconfont'>&#xe676;</i>
+									<span>
+										<a href="html/details.html">百联进口</a>
+										<a href="html/details.html">全球购</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe675;</i>
+									<span>
+										<a href="html/details.html">生鲜食品</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe638;</i>
+									<span>
+										<a href="html/details.html">食品  酒饮  粮油</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe65a;</i>
+									<span>
+										<a href="html/details.html">美容护理</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe649;</i>
+									<span>
+										<a href="html/details.html">母婴  玩具</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe637;</i>
+									<span>
+										<a href="html/details.html">餐厨用具  家居家装</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe636;</i>
+									<span>
+										<a href="html/details.html">家清  纸品  一次性</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe604;</i>
+									<span>
+										<a href="html/details.html">女装  男装</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe605;</i>
+									<span>
+										<a href="html/details.html">鞋靴箱包</a>
+										<a href="html/details.html">珠宝饰品</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe62b;</i>
+									<span>
+										<a href="html/details.html">手机数码  电脑办公</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe62c;</i>
+									<span>
+										<a href="html/details.html">家用电器</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe658;</i>
+									<span>
+										<a href="html/details.html">运动户外</a>
+										<a href="html/details.html">汽车用品</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe62c;</i>
+									<span>
+										<a href="html/details.html">营养滋补 保健器械</a>
+									</span>
+								</li>
+								<li>
+									<i  class='iconfont'>&#xe658;</i>
+									<span>
+										<a href="html/details.html">礼品卡</a>
+										<a href="html/details.html">充值缴费</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="nav-item-data">
+							<!--不移入里面没有数据-->
+							<div class="gb-icon"></div>
+
+						</div>
+					</div>
+				</div>
+				<div class="nav-right">
+					<ul>
+						<li class='on'>
+							<a href="html/details.html">首页<span></span></a>
+						</li>
+						<li>
+							<a href="html/details.html">生活日用<span></span></a>
+						</li>
+						<li>
+							<a href="html/details.html">24H百货<span></span></a>
+						</li>
+						<li>
+							<a href="html/details.html">全球购<span></span></a>
+						</li>
+						<li>
+							<a href="html/details.html"><img src="img/nav-gif.gif"/><span></span></a>
+						</li>
+						<li>
+							<a href="html/details.html">电器城<span></span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-gif">
+					<img src="img/kdj_car.gif"/>
+				</div>
+			</div>
+		</div>
+		<!--侧边栏-->
+		<div id='sidebar'>
+			<div class="sidebar-main">
+				<!--我的信息-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe659;</i>
+					<div class="hide">我的信息</div>
+				</div>
+				<!--购物车-->
+				<div class="shopcar">
+					<i class='iconfont'>&#xe65e;</i>
+					<span>购物车</span>
+					<b class='shopCount'>0</b>
+					<img src="img/slide.png" />
+				</div>
+				<!--我的收藏-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe617;</i>
+					<div class="hide">我的收藏</div>
+				</div>
+				<!--浏览历史-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe67a;</i>
+					<div class="hide">浏览历史</div>
+				</div>
+				<!--二维码-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe665;</i>
+					<div class="code"></div>
+				</div>
+				<!--我的客服-->
+				<div class="sideicon">
+					<i class='iconfont'>&#xe603;</i>
+					<div class="hide">我的客服</div>
+				</div>
+			</div>
+			<div class="sidebar-content">
+				<h2><i class='iconfont'>&#xe67f;</i></h2>
+				<div class="sbcontent">
+					
+				</div>
+
+			</div>
+			
+		</div>
+		<div id="banner">
+			<div class="wrap">
+				<div class="banner-eye">
+					<div class="banner-boby">
+						<ul class="page">
+							<li><a href="html/details.html"><img src="img/banner/res19117.jpg" /></a></li>
+							<li><a href="html/details.html"><img src="img/banner/res19219.jpg" /></a></li>
+							<li><a href="html/details.html"><img src="img/banner/res19244.jpg" /></a></li>
+							<li><a href="html/details.html"><img src="img/banner/res19346.jpg" /></a></li>
+							<li><a href="html/details.html"><img src="img/banner/res19454.jpg" /></a></li>
+							<li><a href="html/details.html"><img src="img/banner/res19488.jpg" /></a></li>
+						</ul>			
+					</div>
+					<ol class="page-move">
+						<li class='prev'><</li>
+						<li class='next'>></li>
+					</ol>
+					<ol class="page-bar">
+						<li class="on"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>				
+				</div>
+			<div class="banner-recommend">
+				<div class="ban-tit1">
+					<a href="#" class='ban-more'>更多</a>
+					<ol>
+						<li><a href="html/details.html"><span>[活动]</span>安热沙免费送给你</a></li>
+						<li><a href="html/details.html"><span>[奥运]</span>如何成为泳池的焦点</a></li>
+						<li><a href="html/details.html"><span>[补水]</span>人气面膜满200减100</a></li>
+					</ol>
+				</div>
+				<div class="ban-tit2">
+					<ul>
+						<li><a href="html/details.html"><img src="img/banner/life_ico1.png"/><span>充话费</span></a></li>
+						<li><a href="html/details.html"><img src="img/banner/life_ico2.png"/><span>游戏</span></a></li>
+						<li><a href="html/details.html"><img src="img/banner/life_ico7.png"/><span>固话</span></a></li>
+						<li><a href="html/details.html"><img src="img/banner/life_ico4.png"/><span>电费</span></a></li>
+						<li><a href="html/details.html"><img src="img/banner/life_ico5.png"/><span>水费</span></a></li>
+						<li><a href="html/details.html"><img src="img/banner/life_ico6.png"/><span>燃气费</span></a></li>
+						<li><a href="html/details.html"><img src="img/banner/life_ico11.png"/><span>冲流量</span></a></li>
+						<li><a href="html/details.html"><img src="img/banner/life_ico12.png"/><span>加油卡</span></a></li>
+						<li><a href="html/details.html"><img src="img/banner/life_ico10.png"/><span>礼品卡</span></a></li>
+					</ul>
+					<a href="html/details.html"><img src="img/banner/res19372.png"/></a>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+		<div id="featured">
+			<div class='wrap'>
+
+					<h2 class='title2'>特色频道<span>Featured Channel</span></h2>
+				<div class="feat-card">
+					<p></p>
+					<a href="html/details.html"><img src="img/featured/res19505.jpg"/></a>
+				</div>
+				<div class="feat-card">
+					<p></p>
+					<a href="html/details.html"><img src="img/featured/res19197.jpg"/></a>
+				</div>
+				<div class="feat-card">
+					<p></p>
+					<a href="html/details.html"><img src="img/featured/res19449.jpg"/></a>
+				</div>
+				<div class="feat-big-card">
+					<div class="big-cardt">
+						<p></p>
+						<a href="html/details.html"><img src="img/featured/res19301.jpg"/></a>
+					</div>
+					<div class="big-cardb">
+						<div class="big-cardbl">
+							<p></p>
+							<a href="html/details.html"><img src="img/featured/res19568.jpg"/></a>
+						</div>
+						<div class="big-cardbr">
+							<p></p>
+							<a href="html/details.html"><img src="img/featured/res19549.jpg"/></a>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		<div id="floor1" class="floor"></div>
+		<div id="floor2" class="floor"></div>
+		<div id="floor3" class="floor"></div>
+		<div id="floor4" class="floor"></div>
+		<div id="floor5" class="floor"></div>
+		<div id="floor6" class="floor"></div>
+		<div id="floor7" class="floor"></div>
+		<div id="floor8" class="floor"></div>
+		
+		<div id="alsolike">
+			<h2 class="title2">特色频道<span>Featured Channel</span></h2>
+			<ol class='like_class'></ol>
+			<ol class='like_class'></ol>
+			<ol class='like_class'></ol>
+			<ol class='like_class'></ol>
+			<ol class='like_class'></ol>
+			<ol class='like_class'></ol>
+		</div>
+		<!--楼梯导航-->
+		<div id='navigation'>
+			<a id='n1' _href="#floor1"><div class="b1"></div></a>
+			<a id='n2' _href="#floor2"><div class="b2"></div></a>
+			<a id='n3' _href="#floor3"><div class="b3"></div></a>
+			<a id='n4' _href="#floor4"><div class="b4"></div></a>
+			<a id='n5' _href="#floor5"><div class="b5"></div></a>
+			<a id='n6' _href="#floor6"><div class="b6"></div></a>
+			<a id='n7' _href="#floor7"><div class="b7"></div></a>
+			<a id='n8' _href="#floor8"><div class="b8"></div></a>
+			<a id='n9' _href="#tools"><div class="b9"></div></a>
+		</div>
+		<div id="footer">
+			<div class="wrap">
+				<div class="ftop">
+					<div class="ftcard">
+						<div><img src="img/footer5.png" />新手入门</div>
+						<ul>
+							<li>物流购物</li>
+							<li>会员介绍</li>
+							<li>常见问题</li>
+							<li>发票说明</li>
+							<li>练习客服</li>
+						</ul>
+					</div>
+					<div class="ftcard">
+						<div><img src="img/footer4.png" />配送服务</div>
+						<ul>
+							
+							<li>配送范围及运费</li>
+							<li>配送进度查询</li>
+							<li>自提服务</li>
+							<li>商品验货与签收</li>
+						</ul>
+					</div>
+					<div class="ftcard">
+						<div><img src="img/footer3.png" />支付方式</div>
+						<ul>
+							<li>货到付款</li>
+							<li>在线支付</li>
+						</ul>
+					</div>
+					<div class="ftcard">
+						<div><img src="img/footer1.png" />售后服务</div>
+						<ul>
+							<li>退换货政策</li>
+							<li>退换货流程</li>
+							<li>退款说明</li>
+						</ul>
+					</div>
+					<div class="ftcard">
+						<div><img src="img/footer2.png" />特色服务</div>
+						<ul>
+							<li>鲜有集市</li>
+							<li>生鲜随便定</li>
+							<li>精选篮筐</li>
+							<li>全球购</li>
+							<li>精品山沟</li>
+							<li>百联到家</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<div class="fbottom">
+				<div class='aboutus'>
+					<a href="html/details.html">关于我们</a><span>|</span>
+					<a href="html/details.html">联系我们</a><span>|</span>
+					<a href="html/details.html">加盟合作</a><span>|</span>
+					<a href="html/details.html">诚征英才</a><span>|</span>
+					<a href="html/details.html">友情链接</a>
+				</div>
+				<div class="copyright">
+					百联集团有限公司旗下 上海百联全渠道电子商务有限公司版权所有 
+					<span>|</span>
+					  客服电话：400-900-8800 
+					<span>|</span>
+					  沪ICP备15028847号
+				</div>
+				<a class='drug' href="#">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+				<div class="police">
+					<a href="html/details.html"><img src="img/police1.png"/><span>沪公网安备  31010102002366号</span></a>
+					<a href="html/details.html"><img src="img/police2.png"/><span>网购大家评</span></a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="js/bl.js"></script>
+	<script src="js/side.js" type="text/javascript" charset="utf-8"></script>
+</html>
+

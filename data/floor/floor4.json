@@ -1,0 +1,18 @@
+{
+	"show":[
+		"img/floor/floor4/res19481.jpg",
+		"img/floor/floor4/res19546.jpg",
+		"img/floor/floor4/res19595.jpg",
+		"img/floor/floor4/res19481.jpg"
+	],
+	"top":{
+		"big":"img/floor/floor4/res17704.jpg",
+		"small":["img/floor/floor4/res19596.jpg","img/floor/floor4/res19563.jpg"]
+	},
+	"bottom":[
+		"img/floor/floor4/res19470.jpg",
+		"img/floor/floor4/res19565.jpg",
+		"img/floor/floor4/res19672.jpg",
+		"img/floor/floor4/res19692.jpg"
+	]
+}
