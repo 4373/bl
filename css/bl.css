@@ -1117,7 +1117,7 @@ body{
 .ban-tit1{
     height:110px;
     margin:15px 15px 0;
-    background:url(../img/banner/ban_tit1.png) no-repeat center 4px;
+    background:url(../img/ban/ban_tit1.png) no-repeat center 4px;
     position:relative;
 
 
@@ -1126,7 +1126,7 @@ body{
     padding-right:14px;
     position:absolute;
     right:0;
-    background:url(../img/banner/ban_more.png) no-repeat right center
+    background:url(../img/ban/ban_more.png) no-repeat right center
 }
 .ban-tit1 ol{
     heigth:75px;
@@ -1141,12 +1141,12 @@ body{
     white-space:nowrap;
     over-flow:hidden;
     text-overflow:hidden;
-    background:url(../img/banner/ban_qnew.png) no-repeat left;
+    background:url(../img/ban/ban_qnew.png) no-repeat left;
 }
 
 .ban-tit2{
     height:250px;padding-top:38px;
-    background:url(../img/banner/ban_tit2.png) no-repeat 0 0;
+    background:url(../img/ban/ban_tit2.png) no-repeat 0 0;
 
 }
 .ban-tit2 ul{
